@@ -54,7 +54,7 @@ public class App extends MultiDexApplication {
         //pyramid-add-start
         PythonLoader.getInstance().setApplication(this);
         //pyramid-add-end
-        JSEngine.getInstance().create();
+        //JSEngine.getInstance().create();
     }
 
     private void initParams() {
